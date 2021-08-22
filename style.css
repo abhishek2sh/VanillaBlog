@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* THE MAIN TAG  */
+main{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(https://source.unsplash.com/weekly?websites); */
+    /* background-color: rgb(245, 234, 234); */
+    background-size: cover;
+}
+
+
+/* THE HEADER TAG FOR THE NAVBAR */
+header
+{
+    display:flex;
+    justify-content: flex-end;
+    height: 55px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+
+/* THE SIGN UP BUTTONS ON THE TOP SIDE IN THE NAVBAR */
+.cta-signup
+{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 15px 21px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+/* THE HOVER EFFECT ON BUTTON SIGN UP */
+.cta-signup:hover{
+    background-color: rgb(216, 215, 215);
+    font-weight: bolder;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 15px 0 rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+/* THE DIV FOR THE PRESENTATION SECTION FIRST PAGE AFTER THE NAVBAR */
+.presentation
+{
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+    height: 70vh;
+    background:linear-gradient( to right top, rgba(255, 255, 255, 0.6),rgba(224, 107, 175, 0.1));
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+
+/* THE DIV FOR THE LOGO AND THE COMPANY NAME AT THE TOP */
+.name-text
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+/* THE NAME OF THE SITE COMPANY  */
+.vblog
+{
+    font-weight: 900;
+    font-size: 35px;
+}
+
+/* THE MAIN TEXT IN CENTER  */
+.main-text
+{
+    height: 100%;
+    text-align: center;
+    flex: 1;
+}
+
+
+/* THE PARA UNDER THE MAIN PRESENTATION HEADING */
+.head-para
+{
+    font-size: 25px;
+    padding: 40px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+
+/* TARGETING THE H1 THROUNDH CLASS HEAD-PARA  */
+.head-para h1
+{
+    color: brown;
+}
+
+
+
+/* TARGETING THE PARA THROUGH THE CLASS HEAD-PARA */
+.head-para p 
+{
+    color:cadetblue;
+    font-weight: 800;
+}
+
+
+/* THE NAME- DESIGN BLOG  BUTTON  */
+.cta-create{
+    font-size: 21px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 900;
+    cursor: pointer;
+    padding: 3px 3px 3px 3px;
+    transition: 0.6s ease-out;
+    -webkit-transition: 0.6s ease-out;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* HOVER ON THE DESIGN BLOG BUTTON  */
+.cta-create:hover{
+    background-color: rgb(6, 54, 18);
+    color: white;
+    font-weight: 900;
+    box-shadow: none;
+    border: 2px solid rgb(6, 54, 18);
+}
+
+
+
+
+
+/* THE LOGIN BUTTON STYLING */
+.cta-login{
+    font-size: 21px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-color: rgb(6, 54, 18);
+    color: white;
+    font-weight: 900;
+    box-shadow: none;
+    cursor: pointer;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border: 2px solid rgb(6, 54, 18);
+    padding: 3px 30px 3px 3px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+/* the second section */
+
+/* THE SECTION  */
+.Templates-text
+{
+    width: 100%;
+    /* margin: 100px 0px 0px 0px; */
+    height: 100vh;
+    /* background-color: rgb(245, 234, 234); */
+    /* background-image:url(/pics/bgimageofsectiontemplate.webp); */
+    background-size: cover;
+
+    }
+
+
+/* THE SUB DIV FOR THE SECTION TEMPLATES-TEXT */
+.full-container
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* THE DIV FOR THE FULL LEFT SECTION  */
+.some-text{
+    flex: 1;
+    text-align: center;
+}
+
+
+
+/* THE HEADING OF THE LEFT SECTION */
+.section-heading
+{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color:rgb(67, 2, 70);
+}
+
+
+/* THE SUB LINE UNDER THE HEADING OF THE SECTION */
+.sub-info{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+
+/* THE BIG BUTTON IN THE LEFT SECTION */
+.design-blog{
+    font-size: 35px;
+    margin: 100px 0px 0px 0px;
+    padding: 10px 50px 10px 50px;
+    font-weight: 900;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.9s ease-out;
+    
+    background-color: rgb(56, 5, 5);
+    cursor: pointer;
+    
+}
+/* HOVER OF THE BIG BUTTON */
+.design-blog:hover{
+    border: 2px solid rgb(56, 5, 5);
+    background-color: transparent;
+    color: rgb(56, 5, 5);
+    
+}
+
+/* THE SOME LINE BELOW THE BUTTON IN THE LEFT SECTION */
+.button-text
+{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
+
+
+/* THE ANOTHER DIV FOR THE RIGHT SECTION  */
+.templates-sec{
+    flex: 1;
+    border-left: 5px solid darkred ;
+    
+}
+
+/* THE HEADING UNDER THE RIGHT SECTION  */
+.template-sec-head
+
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(67, 2, 70);
+    filter: drop-shadow(0 2mm 1mm rgb(170, 170, 170));
+
+}
+
+.head-info{
+    text-align: center;
+}
+
+/* DIV FOR MAKING THE ALL BANNER IN THE FLEX MODE */
+.sub-templates-sec
+{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient( to left top, rgba(197, 103, 103, 0.2), rgba(231 , 119 ,119 , 0.1));
+    z-index: 0;
+}
+
+
+/* THE FIRST TEMPLATE NAME- INTERIOR  */
+.first-template
+{
+    width: 10%;
+    height: 20vh;
+    opacity: 0.5;
+    min-width: 10vw;
+    border: 2px solid rgb(61, 13, 13);
+    transition: 0.6s ease-out;
+    border-radius: 8px;
+    background-image: url(/pics/templates/Interior.png);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 17px 21px rgba(0, 0, 0, 0.2);
+    margin: 60px 0px 60px 150px;
+    background-size: cover;
+}
+/* THE HOVER EFFECT OF THE INTERRIOR BANNER  */
+.first-template:hover{
+    box-shadow: none;
+    opacity: 1;
+}
+
+
+/* THE TEXT UNDER THE FIRST TEMPLATE */
+.first-temple-head{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 400ms ease-out;
+    
+}
+
+
+/* MAKE THE TEXT HOVER ON THE TEMPLATE  */
+.first-template:hover .first-temple-head{
+    opacity: 1;
+    height: 0;
+    transform: translateY(190px);   
+    filter:drop-shadow(0 2mm 1mm green);
+}
+
+
+
+/* THE SECOND TEMPLATE  NAME- MUSIC */
+.second-template
+{
+    width: 10vw;
+    height: 20vh;
+    border: 2px solid rgb(61, 13, 13);
+    border-radius: 8px;
+    opacity: 0.5;
+    transition: 0.6s ease-out;
+    background-image: url(/pics/templates/music.png);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 17px 21px rgba(0, 0, 0, 0.2);
+    margin: 60px 0px 60px 200px;
+    background-size: cover;
+}
+
+.second-template:hover{
+    box-shadow: none;
+    opacity: 1;
+}
+
+
+.second-temple-head{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 400ms ease-out;
+}
+
+
+.second-template:hover .second-temple-head{
+    opacity: 1;
+    height: 0;
+    transform: translateY(190px);   
+    filter:drop-shadow(0 2mm 1mm green);
+}
+
+
+
+
+
+
+/* THE THIRD TEMPLATE NAME= EDUCATION */
+
+.Third-template
+{
+    width: 10vw;
+    height: 20vh;
+    border: 2px solid rgb(61, 13, 13);
+    border-radius: 8px;
+    opacity: 0.5;
+    transition: 0.6s ease-out;
+    background-image: url(/pics/templates/Education.png);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 17px 21px rgba(0, 0, 0, 0.2);
+    margin: 0px 0px 60px 150px;
+    background-size: cover;
+}
+.Third-template:hover{
+    box-shadow: none;
+    opacity: 1;
+}
+
+.Third-temple-head{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 400ms ease-out;
+}
+
+.Third-template:hover .Third-temple-head{
+    opacity: 1;
+    height: 0;
+    transform: translateY(190px);   
+    filter:drop-shadow(0 2mm 1mm green);
+}
+
+
+
+
+/* FOURTH TEMPLATE NAME- SPORTS */
+.Fourth-template
+{
+    width: 10vw;
+    height: 20vh;
+    margin: 0px 0px 60px 200px;
+    border: 2px solid rgb(61, 13, 13);
+    border-radius: 8px;
+    transition: 0.6s ease-out;
+    opacity: 0.5;
+    background-image: url(/pics/templates/Sports\ \(2\).png);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 17px 21px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+.Fourth-template:hover{
+    box-shadow: none;
+    opacity: 1;
+}
+
+
+.Fourth-temple-head{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 400ms ease-out;
+}
+
+.Fourth-template:hover .Fourth-temple-head{
+    opacity: 1;
+    height: 0;
+    transform: translateY(190px);   
+    filter:drop-shadow(0 2mm 1mm green);
+}
+
+
+
+
+
+
+/* THE BUTTON IN THE RIGHT SECTION IN LAST */
+
+.more-anchore
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #4a0202;
+    border-radius: 5px;
+    font-weight: 900;
+    transition: 0.5s ease-out;
+    padding: 10px 20px 10px 20px;
+}
+
+.more-anchore:hover{
+    background-color:rgb(245, 206, 206);
+    border: 2px solid #4a0202;
+    font-weight: 900;
+    color: #4a0202;
+}
+
+
+
+
+/* THE SECTION ENDS */
+
+
+/* THE NEW SECTION STARTED */ 
+.brochure-sec{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgb(245, 234, 234);
+    
+}
+
+
+/* THE BROCHURE PRESENTATION  IS A SUB DIV FOR THE BROCHURE SECTION */
+.brochure-presentation{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* THE DIV FOR THE TEXT AND BUITTON SEC IN THE BROCHURE SEC  */
+.brochure-text{
+    display: flex;
+    flex:1;
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+/*  */
+.Heading-brochure{
+    font-size: 50px;
+}
+.pricing-button{
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(56, 5, 5);
+    cursor: pointer;
+    color: white;
+}
+.pricing-button:hover{
+    background-color: rgb(231, 210, 210);
+    font-size: 30px;
+    border: 2px solid rgb(49, 10, 10);
+    color: rgb(51, 9, 9);
+}
+
+.brochure-text button {
+    border: none;
+    margin: 50px 0px 0px 0px;
+}
+
+
+.brochure-list-items{
+    flex:1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(238, 206, 206);
+}
+
+
+.list-1
+{
+    width: 100%;
+    list-style: none;
+    font-size: 23px;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
+/* THE BROCHURE SECTION ENDS HERE */
+
+
+
+
+/* THE MEMORIES SECTION STARTS HERE  */
+
+
+.create-memories{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(245, 234, 234); */
+    
+}
+
+.sub-create-memories
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.memories-text{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* background-color:  rgb(238, 206, 206);; */
+    align-items: center;
+}
+
+
+.sub-memories-sec{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+
+.memories-para{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.qotes-memories{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading-memories{
+    color: rgb(68, 15, 15);
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.text-memories-para
+{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 0px 100px 100px 100px;
+    background-color: none;
+}
+
+
+
+.qotes-text
+{
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+
+    
+}
+
+
+.signup-2
+{
+    text-decoration: none;
+    color: darkred;
+    cursor: pointer;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    height: 5%;
+    background-color: #350a0a;
+    border: 2px solid black;
+    transition: 0.5s ease-out;
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+}
+.signup-2:hover{
+    color: rgb(41, 6, 6);
+    background-color: rgb(241, 226, 226);
+    font-size: 22px;
+    border: 2px solid rgb(48, 7, 7);
+}
+
+
+/* MEMORIES SECTION ENDS HERE  */
+
+
+
+/* AUDIENCE SECTION STARTS */
+
+
+
+.audience-sec
+{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(245, 234, 234);
+}
+
+
+.right-audience-sec
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-audience-sec
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-heading-text
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.section-para-text 
+{
+    flex: 1;
+}
+
+.info-audience
+{
+
+    font-size: 60px;
+    padding: 0px 20px 0px 50px;
+    border-top-right-radius: 10px;
+    background-color: rgb(53, 8, 8);
+    color: white;
+}
+
+.para-audience
+{
+    font-size: 17px;
+    font-weight: 900;
+    background-color:  rgb(53, 8, 8);
+    color: white;
+    border-top-right-radius: 10px;
+    padding: 100px 100px 100px 100px;
+}
+
+.audience-section-name
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: rgb(66, 14, 14);
+}
+
+
+
+/* THE AUDIENCE SECTION END HERE */
+
+
+
+/* THE NEW SECTION STARTS HERE -NAME = MILLIONS  */
+
+.millions-section
+{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+
+.sub-millions-section{
+display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.millions-heading
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.millions-para
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.millions-heading-text
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(44, 6, 6);
+}
+
+
+.millions-para
+{
+    font-weight: 900;
+    font-size: 21px;
+    color: rgb(41, 6, 6);
+    padding: 0px 200px 0px 200px;
+}
+
+
+
+/* THE FOOTER SECTION */
+
+.last-container
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-links
+{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.footer-link
+{
+    margin: 30px 0px 0px 0px;
+}
+
+.footer-link a
+{
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    transition: 0.4s ease-in-out;
+    justify-content: space-around ;
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-link a:hover
+{
+    text-decoration: underline;
+}
+
+
+.other-links
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: rgb(231, 205, 205);
+    justify-content: space-around;
+}
+
+.other-link
+{
+    align-items: center;
+    list-style: none;
+}
+.other-link a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px 20px 40px;
+    font-size: 21px;
+
+}
+
+
+.last-footer
+{
+    flex: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(53, 6, 6);
+}
+
+
+.copyright
+{
+    color: white;
+
+}
