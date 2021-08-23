@@ -894,3 +894,175 @@ display: flex;
     color: white;
 
 }
+
+
+@media screen and (max-width:900px){
+    header{
+        width: 80%;
+    }
+    main {
+        height: 60vh;
+    }
+    
+    .presentation
+    {
+        clip-path: none;
+        height: 40vh;
+    }
+    .name-text
+    {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .name-text img
+    {
+        width: 18%;
+    }
+    .name-text h1
+    {
+        font-size: 25px;
+    }
+    .heading
+    {
+        font-size: 20px;
+    }
+    .para
+    {
+        font-size: 14px;
+    }
+    .head-para button
+    {
+        font-size: 15px;
+        padding: none;
+    }
+    .full-container{
+        display: block;
+        flex-wrap: nowrap;
+    }
+    .section-heading{
+        font-size: 20px;
+    }
+    .sub-info{
+        font-size: 14px;
+    }
+    .design-blog{
+        padding: none;
+        font-size: 15px;
+    }
+    .Templates-text{
+        height: 130vh;
+    }
+    .button-text{
+        font-size: 12px;
+    }
+    .template-sec-head{
+        font-size: 23px;
+        margin: 50px 0px 0px 0px;
+    }
+    .first-template{
+        margin: auto;
+        width: 35%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .second-template{
+        margin: auto;
+        width: 35%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Third-template{
+        margin: auto;
+        width: 35%;
+        margin-bottom: 50px;
+    }
+    .Fourth-template{
+        margin: auto;
+        width: 35%;
+        margin-bottom: 50px;
+    }
+    .brochure-sec{
+        height: 70vh;
+    }
+    .Heading-brochure{
+        font-size: 30px;
+    }
+    .pricing-button{
+        font-size: 14px;
+    }
+    .pricing-button:hover{
+        font-size: 14px;
+    }
+    .list-1{
+        font-size: 15px;
+    }
+    .create-memories{
+        width: 100%;
+        height: 140vh;
+    }
+    .sub-create-memories{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60vh;
+    }
+    .heading-memories{
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        text-transform: none;
+    }
+    .text-memories-para{
+        padding:auto;
+    }
+    .signup-2
+    {
+        width: 50%;
+        padding: auto;
+        height: 8vh;
+    }
+    .signup-2:hover{
+        font-size: 14px;
+    }
+    .audience-sec{
+        display: grid;
+        height: 140vh;
+        overflow-y: hidden;
+    }
+    .info-audience{
+        font-size: 30px;
+    }
+    .para-audience{
+        font-size: 14px;
+    }
+    .audience-section-name{
+        font-size: 25px;
+    }
+    .millions-section{
+        overflow: hidden;
+        align-items: center;
+        width: 100%;
+        height: 30vh;
+    }
+    .millions-heading-text{
+        font-size: 20px;
+    }
+    .millions-para{
+        font-size:10px;
+        padding: 0px;
+    }
+
+    .footer-link{
+        font-size: 8px;
+        margin: 7px 0px 0px 0px;
+        flex:10;
+    }
+
+    .other-link a{
+        font-size: 5px;
+    }
+    .copyright{
+        font-size: 6px;
+    }
+}
